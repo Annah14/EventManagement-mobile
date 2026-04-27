@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AnnahEventsLS</string>
+    <string name="annah">Annah</string>
+    <string name="events">Events</string>
+    <string name="premium_event_management">Premium Event Management</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="copyright_text">© 2026 Annah Events Management\nDesigned by Annah Tinotenda</string>
+
+    <!-- Common Hints -->
+    <string name="tinotenda">Tinotenda</string>
+    <string name="email_hint">anna@example.com</string>
+    <string name="signup_email_hint">annahtinotenda4@gmail.com</string>
+    <string name="password_hint">••••••••</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_back_name">Welcome back, %1$s!</string>
+    <string name="login_subtitle">Login to your Annah Events account</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in_to_account">Log in to account</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="new_to_annah_events">New to Annah Events? </string>
+    <string name="create_account_action">Create account</string>
+
+    <!-- Signup Screen -->
+    <string name="annah_gem">Annah Gem</string>
+    <string name="create_account">Create Account</string>
+    <string name="luxury_event_journey">Start your luxury event journey</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree_to_the">I agree to the </string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="and"> and </string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="create_my_account">Create my account</string>
+    <string name="or_sign_up_with">or sign up with</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="apple">Apple</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="log_in">Log in</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
