@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/ivContactBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have a question or want a custom quote? Send us your details and we will respond quickly."
+                android:textColor="@color/brand_gold"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="32dp"/>
+
+            <!-- Form -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etContactName"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="Full Name"
+                    android:textColorHint="#88000000"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/bg_input"
+                    android:paddingHorizontal="16dp"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp"/>
+
+                <EditText
+                    android:id="@+id/etContactEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#88000000"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/bg_input"
+                    android:paddingHorizontal="16dp"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp"/>
+
+                <EditText
+                    android:id="@+id/etContactSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="Subject"
+                    android:textColorHint="#88000000"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/bg_input"
+                    android:paddingHorizontal="16dp"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp"/>
+
+                <EditText
+                    android:id="@+id/etContactMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:gravity="top"
+                    android:hint="Your message"
+                    android:textColorHint="#88000000"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/bg_input"
+                    android:padding="16dp"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="32dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSendMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Send Message"
+                    app:backgroundTint="@color/brand_gold"
+                    app:cornerRadius="30dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+
+                <TextView
+                    android:id="@+id/tvSuccessMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Thank you! Your message has been received. We will contact you soon."
+                    android:textColor="#27ae60"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
